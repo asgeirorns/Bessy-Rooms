@@ -49,22 +49,22 @@ with open('RequiredBuildings.dat','w', encoding=_wenc) as fdat:
         s = 'set RequiredBuildings['+course.translate(_trans)+']:='
         fdat.write(s)
         if blist =='11' or blist=='12' or blist=='13' or blist=='14' or blist=='15' or blist=='16':
-            fdat.write('Haskolatorg Oddi Logberg Arnagardur ')
+            fdat.write('Haskolatorg Oddi Logberg Arnagardur Gimli ')
             fdat.write(';')
         if blist=='21':
-            fdat.write('Eirberg Adalbygging')
+            fdat.write('Eirberg Adalbygging Gimli')
             fdat.write(';')
         if blist=='22' or blist=='23' or blist=='24' or blist=='25' or blist=='26':
-            fdat.write('VRII Eirberg Adalbygging Haskolatorg Oddi Arnagardur Oddi')
+            fdat.write('VRII Eirberg Adalbygging Haskolatorg Oddi Arnagardur Gimli')
             fdat.write(';')
         if blist =='31' or blist=='32' or blist=='33' or blist=='34':
-            fdat.write('Adalbygging Arnagardur Haskolatorg Logberg Oddi')
+            fdat.write('Adalbygging Arnagardur Haskolatorg Logberg Oddi Gimli')
             fdat.write(';')
         if blist =='41' or blist=='42' or blist=='43':
             fdat.write('Hamar Klettur Enni')
             fdat.write(';')
         if blist =='51' or blist =='52' or blist =='53' or blist =='54' or blist=='55' or blist=='56':
-            fdat.write('VRII Askja Arnagardur Haskolatorg Oddi Adalbygging Eirberg')
+            fdat.write('VRII Askja Arnagardur Haskolatorg Oddi Adalbygging Gimli')
             fdat.write(';')
 
         fdat.write('\n')
