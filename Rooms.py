@@ -9,7 +9,7 @@
 #stofur.csv
 #Bygging	Stofa	Sætafjöldi	Tegund	Tölvuver	Forgangur	Forgangssvið
 #ByggingarOgStofur.csv:
-#
+#Bygging	Stofa
 
 import os, csv
 from collections import OrderedDict
