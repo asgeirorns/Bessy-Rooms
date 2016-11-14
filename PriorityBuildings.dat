@@ -507,3 +507,4 @@ set PriorityBuildings[LYF114F]:=VRII;
 set PriorityBuildings[ITH111F]:=Hamar;
 set PriorityBuildings[TAN207G]:=Eirberg;
 set PriorityBuildings[LAK112G]:=Eirberg;
+set PriorityBuildings[HJU702G]:=Eirberg;

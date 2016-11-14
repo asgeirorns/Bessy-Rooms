@@ -23,7 +23,7 @@ param Slot {CidExam, ExamSlots} binary, default 0;
 param SlotNames{ExamSlots}, symbolic;
 
 # It is not necessary to solve all slots at once, select the one you want.
-param SolveSlot default 1;
+param SolveSlot default 4;
 set SubExamSlots within ExamSlots := setof{e in ExamSlots: e == SolveSlot} e;
 
 # Set of all Computer Courses

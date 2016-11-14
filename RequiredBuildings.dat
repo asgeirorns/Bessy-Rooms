@@ -507,3 +507,4 @@ set RequiredBuildings[TSM502G]:=Eirberg Haskolatorg Oddi Logberg Gimli Arnagardu
 set RequiredBuildings[LYF508G]:=VRII Haskolatorg Oddi Logberg Gimli Arnagardur NyjiGardur;
 set RequiredBuildings[AMV302M]:=Haskolatorg Oddi Logberg Gimli Arnagardur NyjiGardur;
 set RequiredBuildings[EDL506G]:=VRII Haskolatorg Oddi Logberg Gimli Arnagardur NyjiGardur Eirberg;
+set RequiredBuildings[HJU702G]:=Eirberg Haskolatorg Oddi Logberg Gimli Arnagardur NyjiGardur;
